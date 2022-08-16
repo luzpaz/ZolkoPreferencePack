@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Zolkos Theme Package</name>
+  <description>A preference pack including a stylesheet with tabs</description>
+  <version>0.1.0</version>
+  <maintainer email="zolko@zolko.org">Zolko</maintainer>
+  <license file="LICENSE">GPLv3</license>
+  <url type="repository" branch="main">https://github.com/zolko/ZolkoThemePackage</url>
+  <icon>resources/icons/Zolko.svg</icon>
+
+  <content>
+    <preferencepack>
+      <name>Zolko</name>
+      <description>Theme with tabs</description>
+      <tag>tabs</tag>
+      <tag>stylesheet</tag>
+      <file>DarkSide.qss</file>
+      <depend>TabBar</depend>
+      <depend>PersistentToolbars<depend>
+    </preferencepack>
+  </content>
+
+</package>
